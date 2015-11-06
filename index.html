@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<!-- /FONTS -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/jquery.mustache.js"></script>
+
+<script src="/js/main.js"></script>
+
+<link rel="stylesheet" href="/css/main.min.css" media="screen" charset="utf-8">
+
+<title>Programmer's Roullete</title>
+</head>
+<body>
+
+  <div id="templates" style="display:none;">
+    <div id="templateRoll">
+
+      <div class="label">Code a...</div>
+      <div class="challenge rolldata">{{challenge}}</div>
+
+
+      <div class="label">in...</div>
+      <div class="language rolldata">{{language}}</div>
+
+
+
+      <div class="label">with an interface...</div>
+      <div class="interfaces rolldata">{{interfaces}}</div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <nav>
+    <ul>
+      <li> <a href="javascript:;" onclick="rollRoulette();">Roll</a> </li>
+      <li> <a href="#hallOfFame">Hall of Fame</a> </li>
+    </ul>
+  </nav>
+  <div class="contentWrapper">
+    <div id="roll"></div>
+
+    <div id="resources">
+
+    </div>
+    <div id="hallOfFame">
+
+    </div>
+  </div>
+</body>
+</html>
