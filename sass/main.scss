@@ -1,0 +1,100 @@
+
+
+
+$nav-height: 33px;
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  margin: 0 auto;
+  padding: 0 auto;
+
+  background: white;
+}
+
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  height: $nav-height;
+
+  background: black;
+
+  ul {
+    margin: 0 auto;
+    list-style: none;
+
+    padding-left: 77px;
+
+    li {
+      display: inline-block;
+
+      height: $nav-height;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      line-height: 33px;
+    }
+
+    li:hover {
+      background: purple;
+    }
+    a {
+      text-decoration: none;
+
+      color: white;
+    }
+  }
+}
+
+.contentWrapper {
+  position: absolute;
+  top: $nav-height;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  text-align: center;
+
+  background-image: url('bg.png'), url('stamp.png');
+  background-repeat: no-repeat, repeat;
+  background-position:  left bottom;
+
+  .slogan {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background: blue;
+  }
+}
+
+#roll {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+
+
+  padding: 33px;
+  div {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+  }
+
+  .label {
+    font-size: 40px;
+    text-shadow: 1px 1px #FFFFFF;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .rolldata {
+    padding-left: 40px;
+  }
+}
