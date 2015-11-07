@@ -31,7 +31,8 @@ var interfaces = [
   'Webapp',
   'Qt.',
   'SDL',
-  'REST API'
+  'REST API',
+  'RPC'
 ]
 
 var userRoll = {}
